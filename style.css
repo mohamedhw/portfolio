@@ -1,0 +1,45 @@
+:root {
+  --primary-color: #4ca2d8;
+}
+
+body{
+  font-family: "Roboto", sans-serif;
+  background-color: #cccccc45;
+}
+
+a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #666 !important;
+}
+
+i, .date{
+  color: var(--primary-color);
+}
+
+.date span{
+  width: 5em;
+  background-color: var(--primary-color);
+}
+
+.progress-bar{
+  background-color: var(--primary-color);
+}
+
+.name{
+  position: absolute;
+  left: 3%;
+  bottom: 3%;
+}
+
+footer{
+  background-color: var(--primary-color);
+}
+
+i:hover{
+  color: #000 !important;
+}
+
